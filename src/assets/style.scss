@@ -1,0 +1,8 @@
+$bgColor: red;
+
+.hello{
+  background-color: $bgColor;
+  .child-hello{
+    background-color: green;
+  }
+}

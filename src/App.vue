@@ -3,9 +3,11 @@
 </script>
 
 <template>
-   <div>Hello World</div>
+   <div class="hello">Hello <span class="child-hello">World</span></div>
 </template>
 
-<style scoped>
+<style lang="scss">
+
+@import './assets/style.scss'
 
 </style>
